@@ -13,7 +13,7 @@ dependencies {
 
     modImplementation "maven.modrinth:modmenu:${project.modmenu_version}"
     //modCompileOnly "maven.modrinth:sodium:${project.sodium_version}-fabric"
-    modImplementation files("../libs/sodium.jar")
+    modImplementation "maven.modrinth:sodium:mc1.21.4-0.6.2-fabric"
     // ^ Change to `modCompileOnly` to test without sodium
     //modImplementation "maven.modrinth:client-tweaks:${project.clienttweaks_version}+fabric-${project.minecraft_version}"
     //modImplementation "maven.modrinth:balm:${project.clienttweaks_version}+fabric-${project.minecraft_version}"
